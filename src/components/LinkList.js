@@ -1,6 +1,9 @@
 import React, { Component } from 'react'
 import Link from './Link'
 
+import { graphql } from 'react-apollo'
+import gql from 'graphql-tag'
+
 class LinkList extends Component {
   render() {
     const linksToRender = [
